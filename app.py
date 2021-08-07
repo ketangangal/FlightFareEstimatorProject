@@ -24,7 +24,7 @@ def home():
 
             return render_template('index.html', form=form,value1=int(minfare),value2=int(maxfare))
 
-    return render_template('index.html',form=form)
+    return render_template('index.html',form=form,value1=None,value2=None)
 
 
 if __name__ == "__main__":
