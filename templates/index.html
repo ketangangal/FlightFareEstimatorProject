@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> PREDICTION </title>
+    <link rel="stylesheet" href={{url_for("static",filename="style.css")}}>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">FLIGHT FARE PREDICTION</div>
+    <div class="content">
+      <form action="" method="post">
+        <div class="user-details">
+
+          <div class="input-box">
+            <span class="details">{{ form.Airline.label }} </span>
+            <p>{{ form.Airline()}} </p>
+          </div>
+
+          <div class="input-box">
+            <span class="details">{{ form.Source.label }}</span>
+            <p>{{ form.Source()}} </p>
+          </div>
+
+          <div class="input-box">
+            <span class="details">{{ form.Destination.label }}</span>
+            <p>{{ form.Destination()}} </p>
+          </div>
+
+          <div class="input-box">
+            <span class="details">{{ form.Total_Stops.label }}</span>
+            <p>{{ form.Total_Stops()}} </p>
+          </div>
+
+          <div class="input-box">
+            <span class="details">{{ form.Departure_Date.label }}</span>
+            <p>{{ form.Departure_Date()}} </p>
+          </div>
+
+          <div class="input-box">
+            <span class="details">{{ form.Total_Duration.label }}</span>
+            <p>{{ form.Total_Duration()}} </p>
+          </div>
+
+        </div>
+
+        <div class="input-box">
+            <span class="details">OUTPUT</span>
+            <p> Your Total Flight Fare is Approx : {{ value1 }} to {{ value2}} Rs </p>
+        </div>
+
+        <div class="button">
+          <p> {{ form.submit()}} </p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
