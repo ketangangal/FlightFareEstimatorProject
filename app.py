@@ -20,7 +20,8 @@ def home():
             result = featureCorrection(result)
             output = model.predict(result)
             minfare = np.round(output)-1000
-            maxfare = np.round(output) +1000
+            maxfare = np.round(output)+1000
+
             return render_template('index.html', form=form,value1=int(minfare),value2=int(maxfare))
 
     return render_template('index.html',form=form)
