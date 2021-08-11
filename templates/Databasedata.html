@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> PREDICTION </title>
+    <link rel="stylesheet" href={{url_for("static",filename="styleForData.css")}}>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">DATA RECEIVED FROM DATABASE </div>
+    <div class="content">
+      <form action="" method="post">
+        <div class="user-details">
+
+          <table class="table">
+            <tr class="table_header">
+              {% for header in heading %}
+                  <th class="table_cell"> {{ header }} </th>
+              {% endfor %}
+            </tr>
+
+            {% for row in data %}
+            <tr class="table_row">
+              {% for cell in row %}
+                  <td class="table_cell"> {{ cell }} </td>
+              {% endfor %}
+            </tr >
+            {% endfor %}
+          </table>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
