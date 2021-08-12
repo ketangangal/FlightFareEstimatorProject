@@ -1,15 +1,10 @@
-from Database import Connector
+# All Necessary Library Imports
+from DatabaseConnection.Database import Connector
 import threading
 from joblib import load
 import pandas as pd
 import numpy as np
 import logging
-
-class ThreadWithResult(threading.Thread):
-    def __init__(self, group=None, target=None, name=None, args=(), kwargs={}, *, daemon=None):
-        def function():
-            self.result = target(*args, **kwargs)
-        super().__init__(group=group, target=function, name=name, daemon=daemon)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -18,7 +13,18 @@ fileHandler = logging.FileHandler('test.log')
 fileHandler.setFormatter(formatter)
 logger.addHandler(fileHandler)
 
+class ThreadWithResult(threading.Thread):
+    def __init__(self, group=None, target=None, name=None, args=(), kwargs={}, *, daemon=None):
+        def function():
+            self.result = target(*args, **kwargs)
+        super().__init__(group=group, target=function, name=name, daemon=daemon)
+
 def backend(result):
+    """
+    :DESC: This function send data into database. If table is not present it creates one and adds data.
+    :param result: provided by Thread creater
+    :return: None
+    """
 
     logger.info('Data for Database: {}'.format(result))
     result['Journey_month'] = int(result['Journey_month'])
@@ -26,10 +32,22 @@ def backend(result):
     result['Total_Duration'] = int(result['Total_Duration'])
 
     load_data = Connector()
-    load_data.addData(result)
-    logger.info('Data retrieved')
+    try:
+        load_data.master()
+        load_data.addData(result)
+    except:
+        load_data.addData(result)
+    finally:
+        logger.info('Data retrieved')
 
 def featureCorrection(result):
+    """
+    :DESC: This Function takes data provided by user and performs OneHot Endcoding + Feature Scaling
+           It uses two files 1) outlier removed file 2) FeatureScaler File
+
+    :param result: Provided by Thread creater
+    :return: Sends Data to front end
+    """
 
     logger.info('Data received From User : {}'.format(result))
     result['Journey_month'] = result['Departure_Date'].split('-')[1]
@@ -56,6 +74,11 @@ def featureCorrection(result):
     return result
 
 def getResult(result):
+    """
+    :Desc: This function creates thread for featureCorrection,backend
+    :param result: User Provided
+    :return: Sends data into featureCorrection,backend
+    """
     logger.info('Threading Called !')
     in1 = result
     in2 = result
