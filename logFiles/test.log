@@ -1,0 +1,107 @@
+12-08-2021 21:16:45,INFO,Requested method : POST
+12-08-2021 21:16:46,INFO,Pickle Model Loaded
+12-08-2021 21:16:46,INFO,Data Converted 
+12-08-2021 21:16:46,INFO,Threading Called !
+12-08-2021 21:16:46,INFO,Threading Created !
+12-08-2021 21:16:46,INFO,Data received From User : {'Airline': 'Multiple carriers Premium economy', 'Source': 'Delhi', 'Destination': 'Banglore', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-14', 'Total_Duration': 3, 'submit': ' Calculate Total Flight Fare! '}
+12-08-2021 21:16:46,INFO,Threading Started !
+12-08-2021 21:16:46,INFO,Data for Database: {'Airline': 'Multiple carriers Premium economy', 'Source': 'Delhi', 'Destination': 'Banglore', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-14', 'Total_Duration': 3, 'submit': ' Calculate Total Flight Fare! '}
+12-08-2021 21:16:46,INFO,Data Cleaned : {'Airline': 'Multiple carriers Premium economy', 'Source': 'Delhi', 'Destination': 'Banglore', 'Total_Stops': 'non-stop', 'Total_Duration': 3, 'Journey_month': '08', 'Journey_day': '14'}
+12-08-2021 21:16:46,INFO,Frame created and data appended
+12-08-2021 21:16:46,INFO,Dummy variables created from received data
+12-08-2021 21:16:46,INFO,Data scaled and sent for prediction
+12-08-2021 21:16:46,INFO,Threading join !
+12-08-2021 21:16:46,INFO,Prediction success!
+12-08-2021 21:16:46,INFO,Output displayed!
+12-08-2021 21:23:11,INFO,Requested method : POST
+12-08-2021 21:23:13,INFO,Pickle Model Loaded
+12-08-2021 21:23:13,INFO,Data Converted 
+12-08-2021 21:23:13,INFO,Threading Called !
+12-08-2021 21:23:13,INFO,Threading Created !
+12-08-2021 21:23:13,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-26', 'Total_Duration': 3, 'submit': ' Calculate Total Flight Fare! '}
+12-08-2021 21:23:13,INFO,Threading Started !
+12-08-2021 21:23:13,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-26', 'Total_Duration': 3, 'submit': ' Calculate Total Flight Fare! '}
+12-08-2021 21:23:13,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 3, 'Journey_month': '08', 'Journey_day': '26'}
+12-08-2021 21:23:13,INFO,Frame created and data appended
+12-08-2021 21:23:13,INFO,Dummy variables created from received data
+12-08-2021 21:23:13,INFO,Data scaled and sent for prediction
+12-08-2021 21:23:13,INFO,Threading join !
+12-08-2021 21:23:13,INFO,Prediction success!
+12-08-2021 21:23:13,INFO,Output displayed!
+12-08-2021 21:24:55,INFO,Requested method : POST
+12-08-2021 21:24:56,INFO,Pickle Model Loaded
+12-08-2021 21:24:56,INFO,Data Converted 
+12-08-2021 21:24:56,INFO,Threading Called !
+12-08-2021 21:24:56,INFO,Threading Created !
+12-08-2021 21:24:56,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-26', 'Total_Duration': 3, 'submit': ' Calculate Total Flight Fare! '}
+12-08-2021 21:24:56,INFO,Threading Started !
+12-08-2021 21:24:56,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-26', 'Total_Duration': 3, 'submit': ' Calculate Total Flight Fare! '}
+12-08-2021 21:24:56,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 3, 'Journey_month': '08', 'Journey_day': '26'}
+12-08-2021 21:24:56,INFO,Frame created and data appended
+12-08-2021 21:24:56,INFO,Dummy variables created from received data
+12-08-2021 21:24:56,INFO,Data scaled and sent for prediction
+12-08-2021 21:25:12,INFO,Inside addData
+12-08-2021 21:25:12,INFO,Inside addData
+12-08-2021 21:25:12,INFO,String created
+12-08-2021 21:25:12,INFO,Key created
+12-08-2021 21:25:12,INFO,Column inserted <cassandra.cluster.ResultSet object at 0x00000215FAC5CA60>
+12-08-2021 21:25:12,INFO,Data retrieved
+12-08-2021 21:25:12,INFO,Threading join !
+12-08-2021 21:25:12,INFO,Prediction success!
+12-08-2021 21:25:12,INFO,Output displayed!
+12-08-2021 21:26:03,INFO,Obj created
+12-08-2021 21:26:16,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 21:33:10,INFO,Obj created
+12-08-2021 21:33:23,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 21:39:13,INFO,Obj created
+12-08-2021 21:39:30,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 21:46:10,INFO,Obj created
+12-08-2021 21:46:22,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 21:47:02,INFO,Obj created
+12-08-2021 21:47:15,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 21:47:47,INFO,Obj created
+12-08-2021 21:48:03,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 21:51:25,INFO,Obj created
+12-08-2021 21:51:37,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 21:52:55,INFO,Obj created
+12-08-2021 21:53:08,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 21:54:21,INFO,Obj created
+12-08-2021 21:54:37,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 21:57:26,INFO,Obj created
+12-08-2021 21:57:41,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 22:04:25,INFO,Requested method : POST
+12-08-2021 22:04:26,INFO,Pickle Model Loaded
+12-08-2021 22:04:26,INFO,Data Converted 
+12-08-2021 22:04:26,INFO,Threading Called !
+12-08-2021 22:04:26,INFO,Threading Created !
+12-08-2021 22:04:26,INFO,Data received From User : {'Airline': 'Vistara Premium economy', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': '2 stops', 'Departure_Date': '2021-12-14', 'Total_Duration': 9, 'submit': ' Calculate Total Flight Fare! '}
+12-08-2021 22:04:26,INFO,Threading Started !
+12-08-2021 22:04:26,INFO,Data for Database: {'Airline': 'Vistara Premium economy', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': '2 stops', 'Departure_Date': '2021-12-14', 'Total_Duration': 9, 'submit': ' Calculate Total Flight Fare! '}
+12-08-2021 22:04:26,INFO,Obj created
+12-08-2021 22:04:26,INFO,Data Cleaned : {'Airline': 'Vistara Premium economy', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': '2 stops', 'Total_Duration': 9, 'Journey_month': '12', 'Journey_day': '14'}
+12-08-2021 22:04:26,INFO,Frame created and data appended
+12-08-2021 22:04:26,INFO,Dummy variables created from received data
+12-08-2021 22:04:26,INFO,Data scaled and sent for prediction
+12-08-2021 22:04:43,INFO,Inside addData
+12-08-2021 22:04:43,INFO,Inside addData
+12-08-2021 22:04:43,INFO,String created
+12-08-2021 22:04:43,INFO,Key created
+12-08-2021 22:04:44,INFO,Column inserted <cassandra.cluster.ResultSet object at 0x000001CD43531FA0>
+12-08-2021 22:04:44,INFO,Data retrieved
+12-08-2021 22:04:44,INFO,Threading join !
+12-08-2021 22:04:44,INFO,Prediction success!
+12-08-2021 22:04:44,INFO,Output displayed!
+12-08-2021 22:04:57,INFO,Obj created
+12-08-2021 22:05:13,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 22:20:10,INFO,Obj created
+12-08-2021 22:20:26,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 22:21:38,INFO,Obj created
+12-08-2021 22:21:48,INFO,Obj created
+12-08-2021 22:21:52,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 22:22:01,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 22:22:29,INFO,Obj created
+12-08-2021 22:22:42,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 22:23:28,INFO,Obj created
+12-08-2021 22:23:41,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+12-08-2021 22:24:38,INFO,Obj created
+12-08-2021 22:24:54,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
