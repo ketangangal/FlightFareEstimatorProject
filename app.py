@@ -46,7 +46,7 @@ def home():
                         logging.info('INFO', 'Output displayed!')
                         return render_template('index.html', form=form, value1=int(minfare), value2=int(maxfare),Rs='Rs')
                     else:
-                        return render_template('index.html', form=form, value1='Duration Should be less than 24 Hour')
+                        return render_template('index.html', form=form, value1='Duration Should be less than 10 Hour')
             except:
                 logging.info('ERROR', "Excepted integer got String")
                 return render_template('index.html', form=form,value1='Give Duration In numbers Only')
