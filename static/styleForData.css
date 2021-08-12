@@ -31,7 +31,6 @@ body{
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 3px;
   width: 350px;
   border-radius: 5px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
@@ -41,6 +40,7 @@ body{
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 12px 0;
+
 }
 form .user-details .input-box{
   margin-bottom: 15px;
@@ -128,4 +128,9 @@ text-align: left;
 
 .table_cell{
 padding: 8px;
+}
+
+.table
+{
+max-width: 400;
 }

@@ -1,3 +1,10 @@
- werkzeug : 2021-08-12 18:45:31,067 : _internal.py :  * Debugger is active! 
- werkzeug : 2021-08-12 18:45:31,098 : _internal.py :  * Debugger PIN: 468-623-038 
- werkzeug : 2021-08-12 18:45:31,438 : _internal.py :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) 
+ werkzeug : 2021-08-12 20:13:57,476 : _internal.py :  * Debugger is active! 
+ werkzeug : 2021-08-12 20:13:57,484 : _internal.py :  * Debugger PIN: 468-623-03 werkzeug : 2021-08-12 20:20:52,930 : _internal.py :  * Restarting with stat 
+ werkzeug : 2021-08-12 20:21:14,126 : _internal.py :  * Restarting with stat 
+ werkzeug : 2021-08-12 20:21:30,634 : _internal.py :  * Restarting with stat 
+ werkzeug : 2021-08-12 20:23:26,865 : _internal.py :  * Restarting with stat 
+ werkzeug : 2021-08-12 20:23:44,340 : _internal.py :  * Restarting with stat 
+ werkzeug : 2021-08-12 20:24:50,421 : _internal.py :  * Restarting with stat 
+ werkzeug : 2021-08-12 20:26:33,453 : _internal.py :  * Restarting with stat 
+ werkzeug : 2021-08-12 20:27:45,479 : _internal.py :  * Restarting with stat 
+ werkzeug : 2021-08-12 20:29:10,743 : _internal.py :  * Restarting with stat 
