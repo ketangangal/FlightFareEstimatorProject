@@ -17,8 +17,8 @@
                                 After that I have deployed project on heroku and Microsoft Azure</li></pre>
 
 ## Project Interface
-Link Heroku : https://flightfareestimatorapi1.herokuapp.com/
-App Service Application URL: http://flightfareestimator.azurewebsites.net
+<p> Link Heroku : https://flightfareestimatorapi1.herokuapp.com/ </p>
+<p> App Service Application URL: http://flightfareestimator.azurewebsites.net </p>
 ![MainUI](https://user-images.githubusercontent.com/40850370/129313161-b74283ea-0ad7-4e7e-a196-578dc2ed49ef.png)
 ![DatabaseUI](https://user-images.githubusercontent.com/40850370/129313188-893dd686-5452-445d-a1ed-478ba17089c1.png)
 
