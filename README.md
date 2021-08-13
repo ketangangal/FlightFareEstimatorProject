@@ -14,12 +14,13 @@
 <li> Model Selection II   :  Performed Hyperparameter tuning using gridsearchCV and randomizedSearchCV.</li>
 <li> Pickle File          :  Selected model as per best accuracy and created pickle file using joblib .</li>
 <li> Webpage & deployment :  Created a webform that takes all the necessary inputs from user and shows output.
-                                After that I have deployed project on heroku</li></pre>
+                                After that I have deployed project on heroku and Microsoft Azure</li></pre>
 
 ## Project Interface
-Link : https://flightfareestimatorapi.herokuapp.com/
-
-![Interface](https://user-images.githubusercontent.com/40850370/128631238-3cc908cb-eb3a-49b5-96e5-4f996d825d81.png)
+Link Heroku : https://flightfareestimatorapi1.herokuapp.com/
+App Service Application URL: http://flightfareestimator.azurewebsites.net
+![MainUI](https://user-images.githubusercontent.com/40850370/129313161-b74283ea-0ad7-4e7e-a196-578dc2ed49ef.png)
+![DatabaseUI](https://user-images.githubusercontent.com/40850370/129313188-893dd686-5452-445d-a1ed-478ba17089c1.png)
 
 ## Technologies Used
 <pre> 
