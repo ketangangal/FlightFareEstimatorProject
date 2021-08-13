@@ -32,9 +32,10 @@ App Service Application URL: http://flightfareestimator.azurewebsites.net </p>
 4. Html
 5. Css
 6. Pandas, Numpy 
-
+7. Database 
+8. Hosting
+9. Docker
 </pre>
-
 
 ## High Level Design Document 
 
